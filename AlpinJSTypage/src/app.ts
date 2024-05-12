@@ -1,5 +1,8 @@
 import {Alpine} from "alpinejs";
 
+// Video explicative : https://grafikart.fr/tutoriels/typescript-type-challenges-1960#autoplay
+
+
 Alpine.data('myComponent', function (initial: number = 0) {
   return {
       compteur: initial,
